@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.sjw.blog.mapper.CommentMapper">
+
+
+    <resultMap id="queryCriticzedAuthorByArticle" type="net.sjw.blog.entity.Article">
+        <id property="id" column="aid"/>
+        <result property="title" column="title"/>
+        <association property="user" javaType="net.sjw.blog.entity.User">
+            <id property="id" column="uid"/>
+            <result property="email" column="email"/>
+            <result property="userName" column="uname"/>
+        </association>
+    </resultMap>
+    <select id="queryCriticzedAuthorByArticle" resultMap="queryCriticzedAuthorByArticle">
+        SELECT a.id aid,a.title,u.id uid,u.user_name uname,u.email FROM tb_article a
+        RIGHT OUTER JOIN tb_user u
+        on a.user_id=u.id
+        WHERE a.id=#{articleId}
+    </select>
+</mapper>

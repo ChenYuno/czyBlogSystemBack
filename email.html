@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>${ENV, var="JOB_NAME"}-第${BUILD_NUMBER}次构建日志</title>
+</head>
+<body>
+<div id="contentDiv" onmouseover="getTop().stopPropagation(event);"
+     onclick="getTop().preSwapLink(event, 'html', 'ZC1030-c9ntre4ipijrGlwDPJQYSab');"
+     style="position:relative;font-size:14px;height:auto;padding:15px 15px 10px 15px;z-index:1;zoom:1;line-height:1.7;"
+     class="body">
+    <div id="qm_con_body">
+        <div id="mailContentContainer" class="qmbox qm_con_body_content qqmail_webmail_only" style="">
+            <style type="text/css">.qmbox a:link {
+                text-decoration: none;
+            }
+
+            .qmbox a:visited {
+                text-decoration: none;
+            }
+
+            .qmbox a:hover {
+                text-decoration: none;
+            }
+
+            .qmbox a:active {
+                text-decoration: none;
+            }</style>
+            <div style="border-radius: 10px 10px 10px 10px;font-size:13px;    color: #555555;width: 666px;font-family:'Century Gothic','Trebuchet MS','Hiragino Sans GB',微软雅黑,'Microsoft Yahei',Tahoma,Helvetica,Arial,'SimSun',sans-serif;margin:50px auto;border:1px solid #eee;max-width:100%;background: #ffffff repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);">
+                <div style="width:100%;background:#49BDAD;color:#ffffff;border-radius: 10px 10px 0 0;background-image: -moz-linear-gradient(0deg, rgb(67, 198, 184), rgb(255, 209, 244));background-image: -webkit-linear-gradient(0deg, rgb(67, 198, 184), rgb(255, 209, 244));height: 66px;">
+                    <p style="font-size:15px;word-break:break-all;padding: 23px 32px;margin:0;background-color: hsla(0,0%,100%,.4);border-radius: 10px 10px 0 0;">
+                        <a style="text-decoration:none;color: #ffffff;" rel="noopener"
+                             target="_blank"> </a>(本邮件是程序自动下发的，请勿回复！)</p></div>
+                <div style="margin:40px auto;width:90%"><p>构建结果 - ${BUILD_STATUS}</p>
+                    <div style="background: #fafafa repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);margin:20px 0px;padding:15px;border-radius:5px;font-size:14px;color:#555555;">
+                        <p><img
+                                src="https://cdn.jsdelivr.net/npm/alus@latest/%E9%BB%91%E7%BA%BF.png" class="emoji"></p>
+                    </div>
+                    <p>构建信息如下：</p>
+                    <div style="background: #fafafa repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);margin:20px 0px;padding:15px;border-radius:5px;font-size:14px;color:#555555;">
+                        <p>
+
+                        <table width="95%" cellpadding="0" cellspacing="0" style="font-size: 11pt; font-family: Tahoma, Arial, Helvetica, sans- serif"> <tr><td>(本邮件是程序自动下发的，请勿回复！)</td> </tr> <tr><td><h2> <font color="#0000FF">构建结果 - ${BUILD_STATUS}</font> </h2></td> </tr> <tr><td><br /> <b><font color="#0B610B">构建信息</font></b> <hr size="2" width="100%" align="center" /></td> </tr> <tr><td><ul><li>项目名称&nbsp;：&nbsp;${PROJECT_NAME}</li> <li>构建编号&nbsp;：&nbsp;第${BUILD_NUMBER}次构建</li> <li>触发原因：&nbsp;${CAUSE}</li> <li>构建日志：&nbsp;<a href="${BUILD_URL}console">${BUILD_URL}console</a></li> <li>构建&nbsp;&nbsp;Url&nbsp;：&nbsp;<a href="${BUILD_URL}">${BUILD_URL}</a></li> <li>工作目录&nbsp;：&nbsp;<a href="${PROJECT_URL}ws">${PROJECT_URL}ws</a></li> <li>项目&nbsp;&nbsp;Url&nbsp;：&nbsp;<a href="${PROJECT_URL}">${PROJECT_URL}</a></li> </ul> </td> </tr> <tr><td><b><font color="#0B610B">Changes Since Last Successful Build:</font></b> <hr size="2" width="100%" align="center" /></td> </tr>
+                            编写Jenkinsfile添加构建后发送邮件
+                            <tr><td><ul><li>历史变更记录 : <a href="${PROJECT_URL}changes">${PROJECT_URL}changes</a></li> </ul> ${CHANGES_SINCE_LAST_SUCCESS,reverse=true, format="Changes for Build #%n:<br />%c<br />",showPaths=true,changesFormat="<pre>[%a]<br />%m</pre>",pathFormat="&nbsp;&nbsp;&nbsp;&nbsp;%p"} </td> </tr> <tr><td><b>Failed Test Results</b> <hr size="2" width="100%" align="center" /></td> </tr> <tr><td><pre style="font-size: 11pt; font-family: Tahoma, Arial, Helvetica, sans-serif">$FAILED_TESTS</pre> <br /></td> </tr> <tr><td><b><font color="#0B610B">构建日志 (最后 100行):</font></b> <hr size="2" width="100%" align="center" /></td> </tr> <tr><td><textarea cols="80" rows="30" readonly="readonly" style="font-family: Courier New">${BUILD_LOG, maxLines=100}</textarea> </td> </tr> </table>
+
+                            <img
+                                    src="https://cdn.jsdelivr.net/npm/alus@latest/0020.png" class="emoji"><br>
+<!--                        具体请打开控制台看一呢，比如<code>.parallax&gt;use:nth-child(1)</code>-->
+                        </p>
+                    </div>
+<!--                    <p>您可以点击<a style="text-decoration:none; color:#12addb"-->
+<!--                               href="https://shoka.lostyu.me/about/#5fc3cc31ba67fd7216e649e2" rel="noopener"-->
+<!--                               target="_blank">查看回复的完整內容</a>，欢迎再次光临<a style="text-decoration:none; color:#12addb"-->
+<!--                                                                      href="https://shoka.lostyu.me/" rel="noopener"-->
+<!--                                                                      target="_blank"> 優萌初華</a>。</p>-->
+                </div>
+            </div>
+
+            <style type="text/css">.qmbox style, .qmbox script, .qmbox head, .qmbox link, .qmbox meta {
+                display: none !important;
+            }</style>
+        </div>
+    </div><!-- -->
+    <style>#mailContentContainer .txt {
+        height: auto;
+    }</style>
+</div>
+</body>
+</html>

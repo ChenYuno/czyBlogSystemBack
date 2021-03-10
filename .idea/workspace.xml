@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4193fbb-29b5-47aa-bdac-5a5b2aa258b0" name="Default Changelist" comment="mysql的密码更改" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="MpGeneratorTest" />
+        <option value="logback" />
+        <option value="MyMetaObjectHandler" />
+        <option value="RedisConfig" />
+        <option value="AsyncConfiguration" />
+        <option value="AsyncUncatchExceptionHandler" />
+        <option value="JwtUtil" />
+        <option value="ElasticRestClientConfig" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="陈云哦 &lt;1183728554@qq.com&gt;" />
+        <option value="陈云哦" />
+        <option value="yun &lt;1183728554@qq.com&gt;" />
+        <option value="czy" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\programToolsCatalog\maven\maven_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../programToolsCatalog/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\programToolsCatalog\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1imbNk0lhOdwYupKroMShiB2sw6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/application-prod.yml" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="net.sjw.blog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\CzyBlogSystem\src\main\resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/dic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
+    <configuration name="ErrorCodeConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.sjw.blog.config.ErrorCodeConfig" />
+      <module name="CzyBlogSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.sjw.blog.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CzyBlogSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.sjw.blog.testsql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.sjw.blog.testsql" />
+      <option name="MAIN_CLASS_NAME" value="net.sjw.blog.testsql.Test01" />
+      <option name="METHOD_NAME" value="test05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="esCreateIndex.addAllArticles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CzyBlogSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.sjw.blog.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.sjw.blog.es" />
+      <option name="MAIN_CLASS_NAME" value="net.sjw.blog.es.esCreateIndex" />
+      <option name="METHOD_NAME" value="addAllArticles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="esCreateIndex.createPropertiesMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CzyBlogSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.sjw.blog.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.sjw.blog.es" />
+      <option name="MAIN_CLASS_NAME" value="net.sjw.blog.es.esCreateIndex" />
+      <option name="METHOD_NAME" value="createPropertiesMapping" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="esCreateIndex.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CzyBlogSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.sjw.blog.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.sjw.blog.es" />
+      <option name="MAIN_CLASS_NAME" value="net.sjw.blog.es.esCreateIndex" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="CzyBlogSystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.sjw.blog.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ErrorCodeConfig" />
+        <item itemvalue="JUnit.Test01.test05" />
+        <item itemvalue="JUnit.esCreateIndex.test02" />
+        <item itemvalue="JUnit.esCreateIndex.addAllArticles" />
+        <item itemvalue="JUnit.esCreateIndex.createPropertiesMapping" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4193fbb-29b5-47aa-bdac-5a5b2aa258b0" name="Default Changelist" comment="" />
+      <created>1602515676324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602515676324</updated>
+      <workItem from="1602515678049" duration="155408000" />
+      <workItem from="1602939363154" duration="138799000" />
+      <workItem from="1603548495307" duration="6147000" />
+      <workItem from="1603567235404" duration="1366000" />
+      <workItem from="1603585181606" duration="2515000" />
+      <workItem from="1603588304996" duration="177000" />
+      <workItem from="1603875482639" duration="30046000" />
+      <workItem from="1604192477655" duration="1264000" />
+      <workItem from="1604206333456" duration="981000" />
+      <workItem from="1604213645738" duration="75745000" />
+      <workItem from="1605894087160" duration="3552000" />
+      <workItem from="1606039590399" duration="5863000" />
+      <workItem from="1606209112546" duration="48986000" />
+      <workItem from="1607502552226" duration="6116000" />
+      <workItem from="1608363093789" duration="11442000" />
+      <workItem from="1608472137771" duration="361000" />
+      <workItem from="1608533705139" duration="14301000" />
+      <workItem from="1608788174650" duration="1905000" />
+      <workItem from="1608882309841" duration="1237000" />
+      <workItem from="1608885917339" duration="156000" />
+      <workItem from="1609051451910" duration="13495000" />
+      <workItem from="1609917806766" duration="29511000" />
+      <workItem from="1610812181872" duration="34546000" />
+      <workItem from="1611706226992" duration="752000" />
+      <workItem from="1611752999600" duration="43851000" />
+      <workItem from="1615346005849" duration="3098000" />
+    </task>
+    <task id="LOCAL-00001" summary="首次提交">
+      <created>1613466598684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613466598684</updated>
+    </task>
+    <task id="LOCAL-00002" summary="首次提交">
+      <created>1613467212926</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613467212926</updated>
+    </task>
+    <task id="LOCAL-00003" summary="首次提交">
+      <created>1613468108187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613468108187</updated>
+    </task>
+    <task id="LOCAL-00004" summary="首次提交">
+      <created>1613468510240</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613468510240</updated>
+    </task>
+    <task id="LOCAL-00005" summary="首次提交">
+      <created>1613468944353</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613468944353</updated>
+    </task>
+    <task id="LOCAL-00006" summary="首次提交">
+      <created>1613484795262</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613484795262</updated>
+    </task>
+    <task id="LOCAL-00007" summary="准备第一次部署博客">
+      <created>1614184541152</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614184541152</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mysql的密码更改">
+      <created>1614260786780</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614260786780</updated>
+    </task>
+    <task id="LOCAL-00009" summary="mysql的密码更改">
+      <created>1614343681944</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614343681944</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="首次提交" />
+    <MESSAGE value="准备第一次部署博客" />
+    <MESSAGE value="mysql的密码更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysql的密码更改" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1608" y="190" key="#Deployment" timestamp="1613468762013">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1608" y="190" key="#Deployment/0.0.3440.1440@0.0.3440.1440" timestamp="1613468762013" />
+    <state x="1644" y="510" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614095917963">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1644" y="510" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1440@0.0.3440.1440" timestamp="1614095917963" />
+    <state x="614" y="350" key="#com.intellij.ide.util.MemberChooser" timestamp="1611820219869">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="614" y="350" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1440@0.0.3440.1440" timestamp="1611820219869" />
+    <state x="320" y="290" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1606728922643" />
+    <state x="1621" y="667" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1614343422378">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1621" y="667" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.3440.1440@0.0.3440.1440" timestamp="1614343422378" />
+    <state x="1422" y="374" key="FileChooserDialogImpl" timestamp="1615346880631">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="320" y="269" key="FileChooserDialogImpl/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608363199190" />
+    <state x="1422" y="374" key="FileChooserDialogImpl/0.0.3440.1440@0.0.3440.1440" timestamp="1615346880631" />
+    <state width="2123" height="538" key="GridCell.Tab.0.bottom" timestamp="1613467321374">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1330" height="470" key="GridCell.Tab.0.bottom/-1920.7.1920.1040/0.0.1920.1040@-1920.7.1920.1040" timestamp="1608367316202" />
+    <state width="1330" height="470" key="GridCell.Tab.0.bottom/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608370359118" />
+    <state width="1330" height="202" key="GridCell.Tab.0.bottom/-1920.7.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608620084973" />
+    <state width="2123" height="538" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1613467321374" />
+    <state width="1129" height="478" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1607963860897" />
+    <state width="2123" height="538" key="GridCell.Tab.0.center" timestamp="1613467321371">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1330" height="470" key="GridCell.Tab.0.center/-1920.7.1920.1040/0.0.1920.1040@-1920.7.1920.1040" timestamp="1608367316202" />
+    <state width="1330" height="470" key="GridCell.Tab.0.center/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608370359118" />
+    <state width="1330" height="202" key="GridCell.Tab.0.center/-1920.7.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608620084972" />
+    <state width="2123" height="538" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1613467321371" />
+    <state width="1129" height="478" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1607963860897" />
+    <state width="2123" height="538" key="GridCell.Tab.0.left" timestamp="1613467321371">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1330" height="470" key="GridCell.Tab.0.left/-1920.7.1920.1040/0.0.1920.1040@-1920.7.1920.1040" timestamp="1608367316202" />
+    <state width="1330" height="470" key="GridCell.Tab.0.left/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608370359118" />
+    <state width="1330" height="202" key="GridCell.Tab.0.left/-1920.7.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608620084972" />
+    <state width="2123" height="538" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1613467321371" />
+    <state width="1129" height="478" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1607963860896" />
+    <state width="2123" height="538" key="GridCell.Tab.0.right" timestamp="1613467321371">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1330" height="470" key="GridCell.Tab.0.right/-1920.7.1920.1040/0.0.1920.1040@-1920.7.1920.1040" timestamp="1608367316202" />
+    <state width="1330" height="470" key="GridCell.Tab.0.right/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608370359118" />
+    <state width="1330" height="202" key="GridCell.Tab.0.right/-1920.7.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608620084973" />
+    <state width="2123" height="538" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1613467321371" />
+    <state width="1129" height="478" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1607963860897" />
+    <state width="2123" height="538" key="GridCell.Tab.1.bottom" timestamp="1613467321377">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1330" height="470" key="GridCell.Tab.1.bottom/-1920.7.1920.1040/0.0.1920.1040@-1920.7.1920.1040" timestamp="1608367316202" />
+    <state width="1330" height="470" key="GridCell.Tab.1.bottom/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608370359119" />
+    <state width="1330" height="202" key="GridCell.Tab.1.bottom/-1920.7.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608620084974" />
+    <state width="2123" height="538" key="GridCell.Tab.1.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1613467321377" />
+    <state width="1129" height="478" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1607963860898" />
+    <state width="2123" height="538" key="GridCell.Tab.1.center" timestamp="1613467321375">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1330" height="470" key="GridCell.Tab.1.center/-1920.7.1920.1040/0.0.1920.1040@-1920.7.1920.1040" timestamp="1608367316202" />
+    <state width="1330" height="470" key="GridCell.Tab.1.center/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608370359119" />
+    <state width="1330" height="202" key="GridCell.Tab.1.center/-1920.7.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608620084974" />
+    <state width="2123" height="538" key="GridCell.Tab.1.center/0.0.3440.1440@0.0.3440.1440" timestamp="1613467321375" />
+    <state width="1129" height="478" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1607963860897" />
+    <state width="2123" height="538" key="GridCell.Tab.1.left" timestamp="1613467321375">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1330" height="470" key="GridCell.Tab.1.left/-1920.7.1920.1040/0.0.1920.1040@-1920.7.1920.1040" timestamp="1608367316202" />
+    <state width="1330" height="470" key="GridCell.Tab.1.left/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608370359118" />
+    <state width="1330" height="202" key="GridCell.Tab.1.left/-1920.7.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608620084973" />
+    <state width="2123" height="538" key="GridCell.Tab.1.left/0.0.3440.1440@0.0.3440.1440" timestamp="1613467321375" />
+    <state width="1129" height="478" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1607963860897" />
+    <state width="2123" height="538" key="GridCell.Tab.1.right" timestamp="1613467321376">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1330" height="470" key="GridCell.Tab.1.right/-1920.7.1920.1040/0.0.1920.1040@-1920.7.1920.1040" timestamp="1608367316202" />
+    <state width="1330" height="470" key="GridCell.Tab.1.right/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608370359119" />
+    <state width="1330" height="202" key="GridCell.Tab.1.right/-1920.7.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608620084974" />
+    <state width="2123" height="538" key="GridCell.Tab.1.right/0.0.3440.1440@0.0.3440.1440" timestamp="1613467321376" />
+    <state width="1129" height="478" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1607963860897" />
+    <state width="1330" height="362" key="GridCell.Tab.2.bottom" timestamp="1608366750426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1330" height="362" key="GridCell.Tab.2.bottom/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608366750426" />
+    <state width="1330" height="362" key="GridCell.Tab.2.center" timestamp="1608366750426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1330" height="362" key="GridCell.Tab.2.center/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608366750426" />
+    <state width="1330" height="362" key="GridCell.Tab.2.left" timestamp="1608366750426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1330" height="362" key="GridCell.Tab.2.left/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608366750426" />
+    <state width="1330" height="362" key="GridCell.Tab.2.right" timestamp="1608366750426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1330" height="362" key="GridCell.Tab.2.right/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608366750426" />
+    <state x="288" y="149" key="SettingsEditor" timestamp="1615346946390">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="664" y="80" key="SettingsEditor/-1920.7.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608363611881" />
+    <state x="288" y="149" key="SettingsEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1615346946390" />
+    <state x="290" y="199" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1607186308011" />
+    <state x="2096" y="381" key="Vcs.Push.Dialog.v2" timestamp="1614343714966">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="2096" y="381" key="Vcs.Push.Dialog.v2/0.0.3440.1440@0.0.3440.1440" timestamp="1614343714966" />
+    <state x="1923" y="112" width="1152" height="1257" key="find.popup" timestamp="1614342677644">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1923" y="112" width="1152" height="1257" key="find.popup/0.0.3440.1440@0.0.3440.1440" timestamp="1614342677644" />
+    <state x="90" y="353" width="600" height="486" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1607091181892" />
+    <state x="1519" y="557" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1614184350565">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1519" y="557" key="git4idea.remote.GitConfigureRemotesDialog/0.0.3440.1440@0.0.3440.1440" timestamp="1614184350565" />
+    <state x="195" y="204" key="new project wizard" timestamp="1609164160222">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="195" y="204" key="new project wizard/0.0.3440.1440@0.0.3440.1440" timestamp="1609164160222" />
+    <state x="326" y="442" key="refactoring.ChangeSignatureDialog" timestamp="1609440774777">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="326" y="442" key="refactoring.ChangeSignatureDialog/0.0.3440.1440@0.0.3440.1440" timestamp="1609440774777" />
+    <state x="613" y="314" key="spring file set editor" timestamp="1615346882271">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="613" y="314" key="spring file set editor/0.0.3440.1440@0.0.3440.1440" timestamp="1615346882271" />
+  </component>
+</project>

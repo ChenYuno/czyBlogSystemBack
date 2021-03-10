@@ -1,0 +1,43 @@
+server:
+  port: #TODO:端口号
+spring:
+  application:
+    name: sjw_blog_sysname
+  datasource:
+    url: jdbc:mysql://localhost:3306/czy-blog-system?useUnicode=true&useSSL=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+#    url:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+#    data: classpath:/sql/czy-blog-system.sql
+  #    schema: classpath:/sql/czy-blog-system.sql
+#    initialization-mode: always
+  redis:
+    host:  # TODO:Redis服务器地址
+    port:  6379 # Redis服务器连接端口
+ #   password:  TODO: # Redis服务器连接密码
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  servlet:
+    multipart:
+      max-file-size: 10MB
+logging:
+  level:
+    root: warn
+
+mybatis-plus:
+  mapper-locations: classpath:net/sjw/blog/mapper/xml/*.xml
+  global-config:
+    db-config:
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# TODO:图片上传地址
+czy.blog.images.save-path: D:\czy_blog_system_images
+#czy.blog.images.save-path: /usr/app/upload
+czy:
+  blog:
+    domain-cookie: localhost # 在cookie的工具类中已经没有使用了
